@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: rgb(45, 155, 109);
+  background-color: rgb(8, 47, 39);
   font-family: 'Courier New', Courier, monospace;
   color: white;
 }
@@ -9,8 +9,8 @@ p{
   font-size: small;
 }
 h1{
-font-weight: bold;
-color: white;
+font-weight: bolder;
+color: rgb(12, 60, 12);
 height:  100px;
 width: 100%;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,7 +18,11 @@ background-color: rgb(231, 131, 25);
 margin: 0 auto;
 padding-top: 30px;
 }
-
+p1{
+  font-size: small;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
 header{
   width: 100%;
   text-align: center;
@@ -69,7 +73,8 @@ body {
   height: 500px;
   width: 500px;
   box-shadow: 0 0 20px 0 rgba(49, 90, 71, 0.2);
-  background-color: aqua;
+  border: 4px solid rgb(67, 35, 13);
+  background-color: rgb(231, 131, 25);
 }
 
 .grid div {
@@ -104,4 +109,38 @@ button:hover{
 
 .goal{
   background-color: greenyellow;
+}
+
+.blue{
+  background-color: rgb(65, 65, 187);
+}
+
+.wall{
+  background-color: rgb(67, 35, 13)
+}
+
+.road{
+  background-color: grey
+}
+.bus {
+  background-color: rgb(129, 23, 23);
+}
+.tram{
+  background-color: yellow;
+}
+
+.gator{
+  background-color: rgb(11, 54, 24);
+}
+
+.shark{
+  background-color: darkblue;
+}
+
+.lobster{
+  background-color: rgb(185, 11, 11) ;
+}
+
+.fire{
+  background-color: orange;
 }
